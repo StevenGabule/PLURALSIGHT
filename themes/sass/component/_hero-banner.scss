@@ -1,0 +1,39 @@
+.myHero {
+  height: 70vh;
+  background-image: url('../images/hero/image-res.img.d41486ca-324c-4799-b52a-9a738cd371a3.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 20px;
+  width: 100%;
+}
+.myHero > img {
+  width: 80%;
+  text-align: center;
+  height: fit-content;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.hero-description {
+  width: 50%;
+  margin: auto;
+  height: 100%;
+}
+
+.btn-trending {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+
+  &:hover {
+    color: #e40084 !important
+  }
+}
+
+.hero-margin {
+  margin-bottom: 15%;
+  margin-left: 4%;
+}
+

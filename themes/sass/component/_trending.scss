@@ -1,0 +1,16 @@
+.section-trending {
+  background: black;
+
+  .card-body.position-relative {
+    background: #222;
+    border-radius: 25px;
+    img {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap"
+      rel="stylesheet"
+  />
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/index.css" rel="stylesheet"/>
+
+  <title>Hello, world!</title>
+
+</head>
+<body>
+<header class="header">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark py-4">
+    <div class="container">
+      <a class="navbar-brand" href="#"> PluralSight</a>
+      <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"
+               id="navbarDropdown"
+               role="button"
+               aria-expanded="false"
+               href="#"
+               data-bs-toggle="dropdown"
+            >Platform</a>
+            <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+                id="platform-show"
+            >
+              <li>
+                <ul class="list-unstyled">
+                  <li><h6 class="dropdown-header">WAYS TO UPSKILL</h6></li>
+                  <li><a class="dropdown-item" href="#">Courses</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Skill assessments</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Labs</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Hands-on learning</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Certificate prep</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Team efficiency</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="list-unstyled">
+                  <li><h6 class="dropdown-header">SKILLS FOR</h6></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                    >Software development</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">IT ops</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                    >Info &amp; cyber security</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Cloud computing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                    >Machine learning / AI</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Data professional</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <ul class="list-unstyled" style="width: 600px">
+                  <li>
+                    <h6 class="dropdown-header">TOP TRENDING PATHS</h6>
+                  </li>
+                  <li>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                      <div class="col">
+                        <div class="card p-0">
+                          <a href="" class="btn btn-dark fs-6"
+                          >Microsoft Azure Development</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card p-0">
+                          <a href="" class="btn btn-dark fs-6"
+                          >Cleaning Data with R</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card p-0">
+                          <a href="" class="btn btn-dark fs-6"
+                          >Ruby Language Fundamentals</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card p-0">
+                          <a href="" class="btn btn-dark fs-6">AWS Operations</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card p-0">
+                          <a href="" class="btn btn-dark fs-6">Core Python</a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+            >Resources</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">For Individuals</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+  <div id="myHero" class="myHero">
+    <div class="hero-description d-flex align-items-center">
+      <div class="row hero-margin">
+        <div class="col-lg-9 offset-3">
+          <div class="d-flex flex-column text-white">
+            <h1 style="font-size: 3rem;font-weight: 900;">Build Better Products</h1>
+            <p>Your customers won’t settle and neither should you. With PluralSight, technology teams know more and work
+              better together. Develop the skills you need for your top priorities. Improve workflows with actionable
+              data.
+              Build better—every time.</p>
+            <div>
+              <a href="" class="btn btn-dark text-uppercase rounded-0 p-2 px-5 fw900" style="margin-right: 30px;">View
+                Plans</a>
+              <a href="" class="btn btn-outline-light text-uppercase rounded-0 p-2 px-5 fw900">Try for free</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //////////////////////////////// end of my hero section //////////////////////////////// -->
+
+  <section class="w-100 section-trending">
+    <div class="container-fluid p-lg-5" style="padding-top: 7rem !important;padding-bottom: 6rem !important;">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="d-grid" style="grid-template-columns: 1fr 1fr;grid-template-rows: repeat(2, 1fr);grid-gap: 50px;">
+            <div class="card bg-transparent shadow-none border-0 text-white">
+              <div class="card-body p-4 position-relative">
+                <h6 class="fw900 pink small">PATH</h6>
+                <h5>JavaScript</h5>
+                <h6>11 <span class="text-white-50">Courses</span></h6>
+                <p><a href="" class="text-decoration-none text-white">Take a look</a></p>
+                <img src="images/trending/javascript-542e10ea6e.png" alt="">
+              </div>
+            </div>
+
+            <div class="card shadow-none bg-transparent  border-0 text-white">
+              <div class="card-body position-relative p-4">
+                <h6 class="fw900 pink small">PATH</h6>
+                <h5>Angular</h5>
+                <h6>14 <span class="text-white-50">Courses</span></h6>
+                <p><a href="" class="text-decoration-none text-white">Take a look</a></p>
+                <img src="images/trending/angular-14a0f6532f.png" alt="">
+              </div>
+            </div>
+
+            <div class="card shadow-none bg-transparent  border-0 text-white">
+              <div class="card-body position-relative p-4">
+                <h6 class="fw900 pink small">PATH</h6>
+                <h5>Core Python</h5>
+                <h6>12 <span class="text-white-50">Courses</span></h6>
+                <p><a href="" class="text-decoration-none text-white">Take a look</a></p>
+                <img src="images/trending/python-7be70baaac.png" alt="">
+              </div>
+            </div>
+
+            <div class="card shadow-none bg-transparent  border-0 text-white">
+              <div class="card-body position-relative p-4">
+                <h6 class="fw900 pink small">PATH</h6>
+                <h5>C#</h5>
+                <h6>19 <span class="text-white-50">Courses</span></h6>
+                <p><a href="" class="text-decoration-none text-white">Take a look</a></p>
+                <img src="images/trending/csharp-e7b8fcd4ce.png" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-5 pl-4" style="padding-left: 50px;padding-top: 30px;">
+          <h6 class="pink fw500">TRENDING TECHNOLOGIES</h6>
+          <h3 class="text-white fw900 w-50">Popular topics to learn now</h3>
+          <p class="mt-4 text-white fw500 small">Not sure what technologies to focus on? The Technology Index ranks 850+
+            technologies by their relative
+            popularity. See what’s topping the charts and get recommended courses to skill up. </p>
+          <p>
+            <a href="" class="btn-trending">View the index</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section><!-- ///////// trending technologies -->
+  <!-- //////////////////////////////// end of my trending //////////////////////////////// -->
+
+  <div class="container-fluid features block--black">
+    <div class="container">
+      <div class="row" style="padding: 50px 0">
+        <div class="col-lg-12">
+          <h6 class="fw500 pink">SEE WHAT'S NEW</h6>
+          <h2 class="fw900 text-white mb-4">Our latest features</h2>
+          <div class="w-100 d-flex bg-darkgray" style="border-top-left-radius: 15px;border-bottom-left-radius: 15px">
+            <div class="p-4 w-50 d-flex flex-column align-content-center m-auto text-white">
+              <h3>Skills</h3>
+              <h2 class="fw900 pb-4">Create better cloud outcomes with hands-on experience</h2>
+              <p class="text-white-50">Your teams need the right skills and a place to practice to ensure they’re ready
+                to deliver on your
+                cloud objectives. Labs enable learners to get hands-on practice in a provisioned cloud environment in
+                AWS, Azure and Google Cloud (Google Cloud powered by Quiklabs).</p>
+              <div>
+                <a href="" class="text-decoration-none text-white fw900">Learn more</a>
+              </div>
+            </div>
+            <div class="w-50">
+              <img src="images/features/Cloud-labs-image2x.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 pb-5">
+        <div class="col text-white">
+          <div class="card bg-darkgray h-100 p-3" style="border-radius: 25px">
+            <div class="card-body mt-4">
+              <h6 class="card-title fw500 pb-2" style="letter-spacing: 2px;">CERTIFICATION PREP</h6>
+              <h3 class="card-text fw900 pb-3">Empower your teams to grow their skills and their careers</h3>
+              <p class="card-body p-0 text-white-50">Prepare your team for certification exams with our expert authored content and
+                practice exams.</p>
+              <div>
+                <a href="" class="text-decoration-none text-white fw900">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col text-white">
+          <div class="card bg-darkgray h-100 p-3" style="border-radius: 25px">
+            <div class="card-body mt-4">
+              <h6 class="card-title fw500 pb-2" style="letter-spacing: 2px;">DELIVERY MODULE</h6>
+              <h3 class="card-text fw900 pb-3">Make lasting workflow improvements with insights from your Jira data</h3>
+              <p class="card-body p-0 text-white-50">Go beyond Jira data and get visibility into what’s happening within your user
+                stories, tasks and bugs. Flow’s delivery module helps you better understand how your team is working and
+                can make lasting improvements to your workflow.</p>
+              <div>
+                <a href="" class="text-decoration-none text-white fw900">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col text-white">
+          <div class="card bg-darkgray h-100 p-3" style="border-radius: 25px">
+            <div class="card-body mt-4">
+              <h6 class="card-title fw500 pb-2" style="letter-spacing: 2px;">SANDBOXES</h6>
+              <h3 class="card-text fw900 pb-3">Utilize a space for unrestricted exploration</h3>
+              <p class="card-body p-0 text-white-50">Sandboxes gives your team a safe environment to practice what they're learning from
+                expert-authored courses.</p>
+              <div>
+                <a href="" class="text-decoration-none text-white fw900">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  <!-- /.container -->
+  <!-- ////////////// END THE FEATURES ////////////// -->
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>
+      &copy; 2017–2021 Company, Inc. &middot;
+      <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+    </p>
+  </footer>
+</main>
+
+<script
+    src="js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"
+></script>
+<script>
+  function handlePlatformMenu() {
+    const platformShow = document.getElementById('platform-show');
+    if (platformShow.classList.contains('show')) {
+      platformShow.classList.add('d-flex');
+    } else {
+      platformShow.classList.remove('d-flex');
+    }
+  }
+
+  const platform = document.getElementById('navbarDropdown');
+  platform.addEventListener('click', handlePlatformMenu, false);
+  platform.addEventListener('mouseover', handlePlatformMenu, false);
+
+  /*
+   TODO('DO SOME IMPROVEMENT IN THE FRONTEND')
+   var text = ["processes", "skills", "workflow", 'teams', 'products']
+   var counter = 0;
+   var elem = document.getElementById('title');
+
+   setInterval(change, 300)
+
+   function change() {
+     var op = 1;  // initial opacity
+     var timer = setInterval(function () {
+       if (op <= 0.1){
+         clearInterval(timer);
+         elem.style.display = 'none';
+       }
+       elem.style.opacity = op;
+       elem.style.filter = 'alpha(opacity=' + op * 100 + ")";
+       op -= op * 0.1;
+     }, 50);
+   }
+
+   function unfade(element) {
+     var op = 0.1;  // initial opacity
+     element.style.display = 'block';
+     var timer = setInterval(function () {
+       if (op >= 1){
+         clearInterval(timer);
+       }
+       element.style.opacity = op;
+       element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+       op += op * 0.1;
+     }, 10);
+   }*/
+</script>
+</body>
+</html>
